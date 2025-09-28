@@ -1,0 +1,32 @@
+{
+  "name": "vehicle-service-center-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Vehicle Service Center application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "jwt",
+    "nodemailer"
+  ],
+  "author": "Gemini",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemailer": "^6.9.1",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
